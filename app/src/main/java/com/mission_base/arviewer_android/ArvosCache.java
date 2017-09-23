@@ -18,10 +18,15 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android;
+
+import android.app.Activity;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.os.Environment;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -31,11 +36,6 @@ import java.io.OutputStreamWriter;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.TreeSet;
-
-import android.app.Activity;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.os.Environment;
 
 /**
  * Caches web files in a folder below the external cache directory or, if it is

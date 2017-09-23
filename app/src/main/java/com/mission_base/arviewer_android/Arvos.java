@@ -18,15 +18,10 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android;
-
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -37,6 +32,11 @@ import android.view.OrientationEventListener;
 import com.mission_base.arviewer_android.viewer.ArvosAugment;
 import com.mission_base.arviewer_android.viewer.WebViewer;
 import com.mission_base.arviewer_android.viewer.opengl.ArvosObject;
+
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Static Arvos instance, used to keep static values during the lifetime of the

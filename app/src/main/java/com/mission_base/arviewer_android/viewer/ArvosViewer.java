@@ -18,20 +18,29 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android.viewer;
 
-import android.app.*;
-import android.content.*;
-import android.graphics.*;
-import android.location.*;
-import android.os.*;
-import android.view.*;
-import android.widget.*;
-import com.mission_base.arviewer_android.*;
-import com.mission_base.arviewer_android.viewer.opengl.*;
+import android.app.ActionBar;
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.location.Location;
+import android.location.LocationManager;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.FrameLayout;
+
+import com.mission_base.arviewer_android.Arvos;
+import com.mission_base.arviewer_android.ArvosHttpRequest;
+import com.mission_base.arviewer_android.ArvosLocationListener;
+import com.mission_base.arviewer_android.IArvosHttpReceiver;
+import com.mission_base.arviewer_android.IArvosLocationReceiver;
+import com.mission_base.arviewer_android.R;
+import com.mission_base.arviewer_android.viewer.opengl.ArvosGLView;
 
 /**
  * The augment viewer application.

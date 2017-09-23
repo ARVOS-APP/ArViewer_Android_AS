@@ -19,22 +19,22 @@
     Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android.viewer.opengl;
+
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.opengl.GLUtils;
+
+import com.mission_base.arviewer_android.Arvos;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
 import java.nio.FloatBuffer;
 
 import javax.microedition.khronos.opengles.GL10;
-
-import com.mission_base.arviewer_android.Arvos;
-
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.opengl.GLUtils;
 
 /**
  * The basic object shown in the opengl view, a square with a texture on it.

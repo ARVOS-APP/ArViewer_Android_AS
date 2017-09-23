@@ -18,12 +18,10 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android.viewer;
-
-import java.util.List;
 
 import android.content.Context;
 import android.hardware.Camera;
@@ -33,6 +31,8 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 import com.mission_base.arviewer_android.Arvos;
+
+import java.util.List;
 
 /**
  * The view showing the camera preview.

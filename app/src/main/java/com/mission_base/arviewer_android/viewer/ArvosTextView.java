@@ -18,18 +18,18 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android.viewer;
-
-import com.mission_base.arviewer_android.Arvos;
 
 import android.content.Context;
 import android.graphics.Color;
 import android.location.Location;
 import android.location.LocationManager;
 import android.widget.TextView;
+
+import com.mission_base.arviewer_android.Arvos;
 
 /**
  * The view showing current state of the application.

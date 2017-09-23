@@ -18,17 +18,17 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android.viewer.opengl;
-
-import javax.microedition.khronos.opengles.GL10;
 
 import android.graphics.Bitmap;
 
 import com.mission_base.arviewer_android.Arvos;
 import com.mission_base.arviewer_android.viewer.utilities.MatrixUtils;
+
+import javax.microedition.khronos.opengles.GL10;
 
 /**
  * An object to be shown in the opengl view.

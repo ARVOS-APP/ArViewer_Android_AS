@@ -18,12 +18,10 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android.viewer.opengl;
-
-import java.util.Map.Entry;
 
 import android.opengl.Matrix;
 
@@ -31,6 +29,8 @@ import com.mission_base.arviewer_android.Arvos;
 import com.mission_base.arviewer_android.viewer.utilities.Ray;
 import com.mission_base.arviewer_android.viewer.utilities.Triangle;
 import com.mission_base.arviewer_android.viewer.utilities.Vector;
+
+import java.util.Map.Entry;
 
 /**
  * Handles touches in the opengl view.

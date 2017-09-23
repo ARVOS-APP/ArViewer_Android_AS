@@ -18,12 +18,10 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android;
-
-import java.util.ArrayList;
 
 import android.app.ActionBar;
 import android.app.AlertDialog;
@@ -43,8 +41,10 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.mission_base.arviewer_android.viewer.ArvosViewer;
 import com.mission_base.arviewer_android.viewer.ArvosAugment;
+import com.mission_base.arviewer_android.viewer.ArvosViewer;
+
+import java.util.ArrayList;
 
 /**
  * The main activity of the Arvos app.

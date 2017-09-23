@@ -18,7 +18,7 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
    For more information on the AR Viewer Open Source or Peter Graf,
-   please see: http://www.mission-base.com/.
+   please see: http://www.arvos-app.com/.
  */
 
 package com.mission_base.arviewer_android;
@@ -139,15 +139,15 @@ public class ArvosLocationListener implements LocationListener
 	{
 		if (status == LocationProvider.OUT_OF_SERVICE)
 		{
-			Log.d("LocationProvider.OUT_OF_SERVICE", provider);
+			Log.d("LocProv.OUT_OF_SERVICE", provider);
 		}
 		else if (status == LocationProvider.TEMPORARILY_UNAVAILABLE)
 		{
-			Log.d("LocationProvider.TEMPORARILY_UNAVAILABLE", provider);
+			Log.d("LocPr.TEMPORARILY_UNAVL", provider);
 		}
 		else
 		{
-			Log.d("LocationProvider.AVAILABLE", provider);
+			Log.d("LocPr.AVAILABLE", provider);
 		}
 	}
 
