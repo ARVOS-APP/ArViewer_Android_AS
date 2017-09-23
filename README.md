@@ -4,4 +4,4 @@
 
 <B>ARVOS</B> - <B>A</B>ugmented <B>R</B>eality <B>V</B>iewer <B>O</B>pen <B>S</B>ource -  http://www.arvos-app.com/
 
-ARVOS ArViewer_Android with integration of 2d augments Android Studio Version.
+ARVOS ArViewer_Android with integration of 2d augments, Android Studio Version.
