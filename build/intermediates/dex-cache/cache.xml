@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/peter/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/18.0.0/support-v4-18.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_1fb422a29998063254dd5f004b04f8651236a606/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bbe9bc05040c16606597fa9d1b632c60aecf1b7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="358a4644dcf1f976c7c21bed6f748a115b787fda">
+        <dex dex="/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d50f795f10b11b573dd5e8bf8c2d371c6f30771b/classes.dex" />
+    </item>
+
+</items>

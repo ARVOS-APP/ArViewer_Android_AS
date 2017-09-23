@@ -1,0 +1,4 @@
+#Sat Sep 23 18:20:48 CEST 2017
+base.0=/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_1fb422a29998063254dd5f004b04f8651236a606
+renamed.0=classes.dex
+file.0=/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-v4-18.0.0_1fb422a29998063254dd5f004b04f8651236a606/classes.dex

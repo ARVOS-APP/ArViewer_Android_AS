@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/xml/userpreferences.xml",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/xml/userpreferences.xml"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/xml/authorpreferences.xml",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/xml/authorpreferences.xml"
+    }
+]

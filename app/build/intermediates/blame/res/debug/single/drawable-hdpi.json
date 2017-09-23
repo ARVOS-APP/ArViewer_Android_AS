@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/drawable-hdpi/arvos_logo_black.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/drawable-hdpi/arvos_logo_black.png"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/drawable-hdpi/arvos_logo_rgb.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/drawable-hdpi/arvos_logo_rgb.png"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/drawable-hdpi/arvos_logo_white.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/drawable-hdpi/arvos_logo_white.png"
+    }
+]

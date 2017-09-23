@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/drawable-ldpi/arvos_logo_white.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/drawable-ldpi/arvos_logo_white.png"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/drawable-ldpi/arvos_logo_black.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/drawable-ldpi/arvos_logo_black.png"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/drawable-ldpi/ic_action_refresh_white.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/drawable-ldpi/ic_action_refresh_white.png"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/drawable-ldpi/arvos_logo_rgb.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/drawable-ldpi/arvos_logo_rgb.png"
+    }
+]

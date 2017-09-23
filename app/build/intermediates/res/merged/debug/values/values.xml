@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="magnitude">
+    <item>3</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+  </string-array>
+    <string-array name="magnitude_options">
+    <item>3</item>
+    <item>5</item>
+    <item>6</item>
+    <item>7</item>
+    <item>8</item>
+  </string-array>
+    <string-array name="update_freq_options">
+    <item>Every Minute</item>
+    <item>5 minutes</item>
+    <item>10 minutes</item>
+    <item>15 minutes</item>
+    <item>Every Hour</item>
+  </string-array>
+    <string-array name="update_freq_values">
+    <item>1</item>
+    <item>5</item>
+    <item>10</item>
+    <item>15</item>
+    <item>60</item>
+  </string-array>
+    <string name="app_name">Arvos</string>
+    <string name="menu_close">Close</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_settings">Settings</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/layout/web_viewer_main.xml",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/layout/web_viewer_main.xml"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/layout/lvrowlayout.xml",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/layout/lvrowlayout.xml"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/layout/main.xml",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/layout/main.xml"
+    }
+]

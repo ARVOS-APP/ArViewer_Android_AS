@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/raw/augment1.json",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/raw/augment1.json"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/raw/three.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/raw/three.png"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/raw/two.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/raw/two.png"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/raw/augments.json",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/raw/augments.json"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/raw/one.png",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/raw/one.png"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/raw/augment4.json",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/raw/augment4.json"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/raw/augment2.json",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/raw/augment2.json"
+    },
+    {
+        "merged": "/Users/peter/StudioProjects/ArViewer_Android/app/build/intermediates/res/merged/debug/raw/augment3.json",
+        "source": "/Users/peter/StudioProjects/ArViewer_Android/app/src/main/res/raw/augment3.json"
+    }
+]
