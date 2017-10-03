@@ -23,24 +23,20 @@
 
 package com.mission_base.arviewer_android;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
-import java.net.URLEncoder;
-
-import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.os.AsyncTask;
 import android.util.Pair;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.net.URLEncoder;
 
 /**
  * Handling http downloads asynchronously.
@@ -218,13 +214,12 @@ public class ArvosHttpRequest
 
 		try
 		{
-			HttpClient httpClient = new DefaultHttpClient();
-			HttpResponse response = httpClient.execute(new HttpGet(url));
-			int statusCode = response.getStatusLine().getStatusCode();
+			URL urlObj = new URL(url);
+			HttpURLConnection urlConnection = (HttpURLConnection) urlObj.openConnection();
+			int statusCode = urlConnection.getResponseCode();
 			if (statusCode == 200)
 			{
-				HttpEntity entity = response.getEntity();
-				inputStream = entity.getContent();
+				inputStream = urlConnection.getInputStream();
 				BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
 				String line;
 				while ((line = reader.readLine()) != null)
@@ -284,10 +279,10 @@ public class ArvosHttpRequest
 	{
 		InputStream inputStream = null;
 
-		HttpClient httpclient = new DefaultHttpClient();
-		HttpResponse httpResponse = httpclient.execute(new HttpGet(url));
-		inputStream = httpResponse.getEntity().getContent();
+        URL urlObj = new URL(url);
+        HttpURLConnection urlConnection = (HttpURLConnection) urlObj.openConnection();
 
+        inputStream = urlConnection.getInputStream();
 		return inputStream;
 	}
 

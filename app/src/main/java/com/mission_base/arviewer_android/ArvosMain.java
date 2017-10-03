@@ -41,8 +41,10 @@ import android.view.View;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.mission_base.arviewer_android.ARSimpleOpenGLES20.ARSimpleOGLES20Activity;
 import com.mission_base.arviewer_android.viewer.ArvosAugment;
-import com.mission_base.arviewer_android.viewer.ArvosViewer;
+
+import org.artoolkit.ar.base.assets.AssetHelper;
 
 import java.util.ArrayList;
 
@@ -82,6 +84,12 @@ public class ArvosMain extends ListActivity implements IArvosLocationReceiver, I
 
 		updateFromPreferences();
 		ArvosCache.initialize(this, mMaxAge, mMaxFiles, mMaxSize);
+
+        // Unpack assets to cache directory so native library can read them.
+        // N.B.: If contents of assets folder changes, be sure to increment the
+        // versionCode integer in the modules build.gradle file.
+        AssetHelper assetHelper = new AssetHelper(getAssets());
+        assetHelper.cacheAssetFolder(this, "Data");
 	}
 
 	/**
@@ -215,7 +223,7 @@ public class ArvosMain extends ListActivity implements IArvosLocationReceiver, I
 					return;
 				}
 
-				Intent intent = new Intent(this, ArvosViewer.class);
+				Intent intent = new Intent(this, ARSimpleOGLES20Activity.class);
 				intent.putExtra("augmentText", text);
 				intent.putExtra("augmentName", name.trim());
 
